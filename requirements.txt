@@ -1,0 +1,11 @@
+numpy
+torch
+seaborn
+torchvision
+pillow
+tqdm
+wordcloud
+scikit-learn
+ipykernel
+Flask
+requests
