@@ -31,23 +31,29 @@
 
 ## Installation Guide
 
-### **1️ Create & Activate a Virtual Environment**
+### **1 Clone the Repository**
+```bash
+git clone https://github.com/pdobariya1/fashion-image-classifier.git
+cd fashion-image-classifier
+```
+
+### **2 Create & Activate a Virtual Environment**
 ```bash
 conda create -p {env_name} python==3.10.16 -y
 conda activate {env_name}/
 ```
 
-### **2 Install Dependencies**
+### **3 Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3 How to run the Flask API**
+### **4 How to run the Flask API**
 ```bash
 python app.py
 ```
 
-### **4 API TestPoint**
+### **5 API TestPoint**
 ```bash
 import requests
 
